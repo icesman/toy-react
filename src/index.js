@@ -6,7 +6,6 @@ import {
 
 class HelloWorld extends Component {
 	render() {
-		console.log(this.clildren);
 		return (
 			<div>
 				<h1>Hello world!</h1>
@@ -17,8 +16,9 @@ class HelloWorld extends Component {
 }
 
 render(
-	<HelloWorld>
+	<HelloWorld id="a">
 		<div>Hello world from children!</div>
+		<div>a</div>
 	</HelloWorld>,
 	document.body
 );
