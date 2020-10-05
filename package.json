@@ -1,0 +1,31 @@
+{
+  "name": "toy-react",
+  "version": "1.0.0",
+  "description": "a toy react for learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/icesman/toy-react.git"
+  },
+  "keywords": [
+    "toy",
+    "react"
+  ],
+  "author": "iceman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icesman/toy-react/issues"
+  },
+  "homepage": "https://github.com/icesman/toy-react#readme"
+}
